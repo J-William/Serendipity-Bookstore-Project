@@ -3,6 +3,8 @@ using namespace std;
 
 int main()
 {
+	char input;
+
 	cout << "\n\t  Serendipity Booksellers\n\t          Reports" << endl << endl;
 	cout << "\t1. Inventory Listing" << endl;
 	cout << "\t2. Inventory Wholesale Value" << endl;
@@ -12,6 +14,7 @@ int main()
 	cout << "\t6. Listing by Age" << endl;
 	cout << "\t7. Return to Main Menu" << endl << endl;
 	cout << "Enter Your Choice: " << endl;
+	cin >> input;
 
 	
 	return 0;
